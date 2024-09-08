@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  justify-content: center; /* Center header content */
+  align-items: center;
+  padding: 10px;
+  background-color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Center-align items vertically within the container */
+  justify-content: center; /* Center-align items horizontally */
+}
+
+.logo-left {
+  height: 60px;
+}
+
+.dashboard {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.MuiCard-root {
+  min-width: 150px;
+}
+
+.MuiTypography-h5 {
+  font-weight: bold;
+}
+
+.button-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
